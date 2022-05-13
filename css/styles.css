@@ -101,7 +101,8 @@ img {
 .footer-contacts-list,
 .list-button,
 .list-card,
-.social-team {
+.social-team,
+.socials-list {
   list-style: none;
 }
 
@@ -572,4 +573,50 @@ img {
   letter-spacing: 0.06em;
 
   margin-bottom: 4px;
+}
+
+.container-footer {
+  margin-right: 70px;
+}
+
+.social-container {
+  display: flex;
+  align-items: baseline;
+}
+
+.text-footer {
+  color: #ffffff;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  margin-bottom: 20px;
+}
+
+.footer-socials {
+  display: block;
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.socials-list:not(:last-child) {
+  margin-right: 10px;
+}
+
+.socials-list {
+  width: 44px;
+  height: 44px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+}
+
+.link-footer {
+ 
 }
