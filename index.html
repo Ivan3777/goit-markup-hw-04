@@ -24,11 +24,14 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
+    <!-- header -->
+
     <header class="page-header">
       <div class="container header-container">
-        <a class="logo" lang="en" href="./index.html"
-          >Web<span class="logo-black">Studio</span></a
-        >
+        <a class="logo" lang="en" href="./index.html">Web<span class="logo-black">Studio</span></a>
+
+        <!-- nav -->
+
         <nav>
           <ul class="site-navigation">
             <li><a class="nav-link current" href="">Студия</a></li>
@@ -36,6 +39,9 @@
             <li><a class="nav-link" href="">Контакты</a></li>
           </ul>
         </nav>
+
+        <!-- contacts -->
+
         <ul class="header-contacts-list">
           <li class="contacts-list">
             <a class="mail-header" href="mailto:nfo@devstudio.com">
@@ -56,15 +62,18 @@
         </ul>
       </div>
     </header>
+
+    <!-- hero -->
+
     <main class="main">
       <section class="section-hero">
         <div class="container">
           <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-          <button class="button-title-hero" type="button">
-            Заказать услугу
-          </button>
+          <button class="button-title-hero" type="button">Заказать услугу</button>
         </div>
       </section>
+
+      <!-- section benefits -->
 
       <section class="section-benefits section">
         <div class="container benefits-container">
@@ -78,8 +87,7 @@
               </div>
               <h3 class="subtitle">Внимание к деталям</h3>
               <p class="text-subtitle">
-                Идейные соображения, а также начало повседневной работы по
-                формированию позиции.
+                Идейные соображения, а также начало повседневной работы по формированию позиции.
               </p>
             </li>
             <li class="list-item">
@@ -90,8 +98,7 @@
               </div>
               <h3 class="subtitle">Пунктуальность</h3>
               <p class="text-subtitle">
-                Задача организации, в особенности же рамки и место обучения
-                кадров влечет за собой.
+                Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
               </p>
             </li>
             <li class="list-item">
@@ -102,8 +109,7 @@
               </div>
               <h3 class="subtitle">Планирование</h3>
               <p class="text-subtitle">
-                Равным образом консультация с широким активом в значительной
-                степени обуславливает.
+                Равным образом консультация с широким активом в значительной степени обуславливает.
               </p>
             </li>
             <li class="list-item">
@@ -114,13 +120,15 @@
               </div>
               <h3 class="subtitle">Современные технологии</h3>
               <p class="text-subtitle">
-                Значимость этих проблем настолько очевидна, что реализация
-                плановых заданий.
+                Значимость этих проблем настолько очевидна, что реализация плановых заданий.
               </p>
             </li>
           </ul>
         </div>
       </section>
+
+      <!-- section gallery -->
+
       <section class="section-img section">
         <div class="container">
           <h2 class="subtitle-img">Чем мы занимаемся</h2>
@@ -132,17 +140,14 @@
         </div>
       </section>
 
+      <!-- section team -->
+
       <section class="section-team section">
         <div class="container">
           <h2 class="subtitle-team">Наша команда</h2>
           <ul class="list-team">
             <li class="card-team">
-              <img
-                class="team-image"
-                src="./images/igor.jpg"
-                alt=""
-                width="270"
-              />
+              <img class="team-image" src="./images/igor.jpg" alt="" width="270" />
               <div class="command-description">
                 <h3 class="subtitle-name">Игорь Демьяненко</h3>
                 <p class="text-team" lang="en">Product Designer</p>
@@ -203,12 +208,7 @@
               </div>
             </li>
             <li class="card-team">
-              <img
-                class="team-image"
-                src="./images/olga.jpg"
-                alt=""
-                width="270"
-              />
+              <img class="team-image" src="./images/olga.jpg" alt="" width="270" />
               <div class="command-description">
                 <h3 class="subtitle-name">Ольга Репина</h3>
                 <p class="text-team" lang="en">Frontend Developer</p>
@@ -269,12 +269,7 @@
               </div>
             </li>
             <li class="card-team">
-              <img
-                class="team-image"
-                src="./images/nikolai.jpg"
-                alt=""
-                width="270"
-              />
+              <img class="team-image" src="./images/nikolai.jpg" alt="" width="270" />
               <div class="command-description">
                 <h3 class="subtitle-name">Николай Тарасов</h3>
                 <p class="text-team" lang="en">Marketing</p>
@@ -335,12 +330,7 @@
               </div>
             </li>
             <li class="card-team">
-              <img
-                class="team-image"
-                src="./images/michail.jpg"
-                alt=""
-                width="270"
-              />
+              <img class="team-image" src="./images/michail.jpg" alt="" width="270" />
               <div class="command-description">
                 <h3 class="subtitle-name">Михаил Ермаков</h3>
                 <p class="text-team" lang="en">UI Designer</p>
@@ -403,64 +393,138 @@
           </ul>
         </div>
       </section>
+
+      <!-- clients -->
+
+      <section class="clients">
+        <div class="container">
+          <h2 class="subtitle-clients">Постоянные клиенты</h2>
+          <ul class="list-clients">
+            <li class="client">
+              <a class="link-client" href="">
+                <svg class="icon-client" width="106" height="60">
+                  <use href="./images/icons.svg#Logo-1"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="client">
+              <a class="link-client" href="">
+                <svg class="icon-client" width="106" height="60">
+                  <use href="./images/icons.svg#Logo-2"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="client">
+              <a class="link-client" href="">
+                <svg class="icon-client" width="106" height="60">
+                  <use href="./images/icons.svg#Logo-3"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="client">
+              <a class="link-client" href="">
+                <svg class="icon-client" width="106" height="60">
+                  <use href="./images/icons.svg#Logo-4"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="client">
+              <a class="link-client" href="">
+                <svg class="icon-client" width="106" height="60">
+                  <use href="./images/icons.svg#Logo-5"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="client">
+              <a class="link-client" href="">
+                <svg class="icon-client" width="106" height="60">
+                  <use href="./images/icons.svg#Logo-6"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
     </main>
+
+    <!-- footer -->
+
     <footer class="footer">
       <div class="container social-container">
-        <section class="container-footer">
-        <a class="logo-footer" lang="en" href="./index.html"
-          >Web<span class="logo-white">Studio</span></a
-        >
-        <address class="address">г. Киев, пр-т Леси Украинки, 26</address>
-        <ul class="footer-contacts-list">
-          <li class="li-mail">
-            <a class="mail-footer" href="mailto:nfo@devstudio.com"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li><a class="phone-footer" href="tel:0961111111">0961111111</a></li>
-        </ul>
-      </section>
-      <section class="footer-socials">
-        <h3 class="text-footer">присоединяйтесь</h3>
-        <ul class="socials">
-          <li class="socials-list"><a class="link-footer"
-            href=""
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="иконка instagram"
+        <!-- address -->
+
+        <div class="container-footer">
+          <a class="logo-footer" lang="en" href="./index.html"
+            >Web<span class="logo-white">Studio</span></a
           >
-            <svg class="socials-link-footer" width="20" height="20">
-              <use href="./images/icons.svg#instagram"></use>
-            </svg></li>
-          <li class="socials-list"><a class="link-footer"
-            href=""
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="иконка instagram"
-          >
-            <svg class="socials-link-footer" width="20" height="20">
-              <use href="./images/icons.svg#twitter"></use>
-            </svg></li>
-          <li class="socials-list"><a class="link-footer"
-            href=""
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="иконка instagram"
-          >
-            <svg class="socials-link-footer" width="20" height="20">
-              <use href="./images/icons.svg#facebook"></use>
-            </svg></li>
-          <li class="socials-list"><a class="link-footer"
-            href=""
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="иконка instagram"
-          >
-            <svg class="socials-link-footer" width="20" height="20">
-              <use href="./images/icons.svg#linkedin"></use>
-            </svg></li>
-        </ul>
-      </section>
+          <address class="address">г. Киев, пр-т Леси Украинки, 26</address>
+          <ul class="footer-contacts-list">
+            <li class="li-mail">
+              <a class="mail-footer" href="mailto:nfo@devstudio.com">info@devstudio.com</a>
+            </li>
+            <li><a class="phone-footer" href="tel:0961111111">0961111111</a></li>
+          </ul>
+        </div>
+
+        <!-- Join-->
+
+        <div class="footer-socials">
+          <h3 class="text-footer">присоединяйтесь</h3>
+          <ul class="social">
+            <li class="social-list">
+              <a
+                class="social-link-footer"
+                href=""
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="иконка instagram"
+              >
+                <svg class="socials-icon" width="20" height="20">
+                  <use href="./images/icons.svg#instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-list">
+              <a
+                class="social-link-footer"
+                href=""
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="иконка twitter"
+              >
+                <svg class="socials-icon" width="20" height="20">
+                  <use href="./images/icons.svg#twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-list">
+              <a
+                class="social-link-footer"
+                href=""
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="иконка facebook"
+              >
+                <svg class="socials-icon" width="20" height="20">
+                  <use href="./images/icons.svg#facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-list">
+              <a
+                class="social-link-footer"
+                href=""
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="иконка linkedin"
+              >
+                <svg class="socials-icon" width="20" height="20">
+                  <use href="./images/icons.svg#linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </footer>
   </body>
